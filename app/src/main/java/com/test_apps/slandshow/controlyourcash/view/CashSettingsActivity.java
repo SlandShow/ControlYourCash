@@ -64,6 +64,7 @@ public class CashSettingsActivity extends AppCompatActivity {
         Toast.makeText(this, names, Toast.LENGTH_LONG).show();
 
     }
+    //
 
     public void newProduct(View v) {
         try {
