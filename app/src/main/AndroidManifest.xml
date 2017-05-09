@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".view.CashSettingsActivity" />
         <activity android:name=".controller.CashAdapter" />
-        <activity android:name=".model.RegistrationActivity"></activity>
+        <activity android:name=".model.RegistrationActivity" />
     </application>
 
 </manifest>

@@ -23,6 +23,7 @@ public class MainActivity extends LockActivity implements View.OnClickListener {
     private Button btnOff;
     private Button btnChange;
     private Button btnCteateCash;
+    private Button btnSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,8 @@ public class MainActivity extends LockActivity implements View.OnClickListener {
         btnChange = (Button) findViewById(R.id.bt_change);
         // Кнопка создания кошелька
         btnCteateCash = (Button) findViewById(R.id.button_create_cash);
+        // Кнопка настроек
+        btnSettings = (Button) findViewById(R.id.btn_settings);
 
         // Закрепление обработчиков событий
         btnOff.setOnClickListener(this);
@@ -62,6 +65,9 @@ public class MainActivity extends LockActivity implements View.OnClickListener {
         } else if (v.equals(btnCteateCash)) {
             Intent intent = new Intent(this, CashSettingsActivity.class);
             startActivity(intent);
+            // Настройки
+        } else if (v.equals(btnSettings)) {
+
         }
     }
 

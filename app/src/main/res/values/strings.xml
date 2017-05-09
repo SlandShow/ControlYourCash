@@ -7,9 +7,19 @@
     <string name="change_passcode">Change Pin</string>
     <string name="setup_passcode">Setup Pin</string>
     <string name="passcode_wrong">Wrong Pin, try again</string>
-    <string name="enable_passcod">Enabke Pin</string>
+    <string name="enable_passcod">Enable Pin</string>
+    <string name="settings_eng">Settings</string>
     <string name="create_cash">Create you private cash</string>
     <string name="create_cash_rus">Вы можете создать свой приватный кошелёк</string>
     <string name="private_cash_init_button_rus">Создать приватный кошелёк</string>
     <string name="password_init_rus">Вам необходимо защитить свой кошелёк поролем</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_quantity">Product rate</string>
+    <string name="product_id">Product income</string>
+    <string name="not_assigned">Not Assigned</string>
+    <string name="add">ADD</string>
+    <string name="find">FIND</string>
+    <string name="delete">DELETE</string>
+    <string name="delete_all">DELETE ALL</string>
+    <string name="update">UPDATE</string>
 </resources>

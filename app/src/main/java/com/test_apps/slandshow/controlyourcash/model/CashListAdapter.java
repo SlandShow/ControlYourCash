@@ -18,6 +18,9 @@ public class CashListAdapter extends BaseAdapter {
 
     private Context context;
     private List<Cash> cashes;
+    private TextView name;
+    private TextView income;
+    private TextView coast;
 
     public CashListAdapter(Context context, List<Cash> cashes) {
         this.context = context;
@@ -46,17 +49,23 @@ public class CashListAdapter extends BaseAdapter {
                 R.layout.item_product_list,
                 null
         );
-        TextView name = (TextView) view.findViewById(R.id.cash_name);
-        TextView price = (TextView) view.findViewById(R.id.cash_price);
-        TextView description = (TextView) view.findViewById(R.id.cash_dicriprion);
+        TextView name = (TextView) view.findViewById(R.id.name);
+        TextView income = (TextView) view.findViewById(R.id.income);
+        TextView coast = (TextView) view.findViewById(R.id.coast);
 
         // Set views via text
-//        name.setText(cashes.get(position).getCoast());
- //       price.setText(cashes.get(position).getIncome());
+        name.setText(cashes.get(position).getName());
+        income.setText(cashes.get(position).getIncome() + "");
+        coast.setText(cashes.get(position).getCoast() + "");
 
         // Save id to tag
         view.setTag(cashes.get(position).getId());
 
         return view;
     }
+
+    public void update(Cash cash) {
+       cash.setIncome(100);
+    }
+
 }
