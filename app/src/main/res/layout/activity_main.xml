@@ -36,9 +36,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_settings"
-        android:layout_above="@+id/bt_on_off"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="57dp" />
+        android:id="@+id/btn_graphicsFunctions"
+        android:text="View Graphics Functions"
+        android:layout_below="@+id/button_create_cash"
+        android:layout_alignEnd="@+id/button_create_cash"
+        android:layout_marginTop="46dp" />
 
 </RelativeLayout>
